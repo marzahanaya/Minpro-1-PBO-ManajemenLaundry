@@ -34,3 +34,14 @@ Memasukkan kata kunci pencarian Sasa dan sistem berhasil menampilkan data transa
 <img width="570" height="208" alt="Screenshot 2026-09-10 041710" src="https://github.com/user-attachments/assets/8119cb90-c0b1-4c52-9d7c-38063a3d7254" />
 
 Menampilkan pesan penutup dan menghentikan perulangan program.
+
+## Nilai Tambah
+### Access Modifier
+<img width="518" height="175" alt="Screenshot 2026-09-10 051834" src="https://github.com/user-attachments/assets/8c2b4148-6d14-4454-817b-eeef6d35c21c" />
+
+
+### Encapsulation
+<img width="518" height="175" alt="Screenshot 2026-09-10 051834" src="https://github.com/user-attachments/assets/e2daf7f8-3dbf-4f4e-89c4-decfc00db27c" />
+
+### Validasi Input
+<img width="567" height="277" alt="Screenshot 2026-09-10 051349" src="https://github.com/user-attachments/assets/dbede211-4648-4247-8832-dfd023f74fee" />
