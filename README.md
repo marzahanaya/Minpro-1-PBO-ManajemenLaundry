@@ -28,7 +28,9 @@ Memperbarui data pada ID 001, di mana nama pelanggan diubah menjadi Pris dan jen
 Menghapus transaksi dengan ID 004. Saat dicek kembali menggunakan Menu 2, data ID 004 terbukti sudah terhapus dan perubahan pada ID 001 sudah terbarui.
 
 <img width="743" height="242" alt="Screenshot 2026-09-10 041654" src="https://github.com/user-attachments/assets/7934d158-4048-482a-963c-bd5a34408447" />
+
 Memasukkan kata kunci pencarian Sasa dan sistem berhasil menampilkan data transaksi milik Sasa (ID 003) secara spesifik.
 
 <img width="570" height="208" alt="Screenshot 2026-09-10 041710" src="https://github.com/user-attachments/assets/8119cb90-c0b1-4c52-9d7c-38063a3d7254" />
+
 Menampilkan pesan penutup dan menghentikan perulangan program.
