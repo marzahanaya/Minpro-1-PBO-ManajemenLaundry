@@ -37,11 +37,16 @@ Menampilkan pesan penutup dan menghentikan perulangan program.
 
 ## Nilai Tambah
 ### Access Modifier
-<img width="518" height="175" alt="Screenshot 2026-09-10 051834" src="https://github.com/user-attachments/assets/8c2b4148-6d14-4454-817b-eeef6d35c21c" />
+<img width="342" height="87" alt="Screenshot 2026-09-10 051615" src="https://github.com/user-attachments/assets/c6072c76-bcf2-4bb3-8d62-6db481f514a2" />
 
+Menunjukkan penggunaan kata kunci private pada atribut (idTransaksi, namaPelanggan, berat) untuk membatasi hak akses data agar tidak bisa diakses atau diubah secara langsung dari luar class.
 
 ### Encapsulation
 <img width="518" height="175" alt="Screenshot 2026-09-10 051834" src="https://github.com/user-attachments/assets/e2daf7f8-3dbf-4f4e-89c4-decfc00db27c" />
 
+Menunjukkan penggunaan method public getter (getIdTransaksi) untuk membaca data dan setter (setIdTransaksi) untuk mengubah data atribut private secara aman dan terkontrol.
+
 ### Validasi Input
 <img width="567" height="277" alt="Screenshot 2026-09-10 051349" src="https://github.com/user-attachments/assets/dbede211-4648-4247-8832-dfd023f74fee" />
+
+Menunjukkan mekanisme pencegahan error saat pengguna memasukkan karakter yang salah (ckdnjk') pada kolom berat, sehingga sistem memberi peringatan "Input berat harus berupa angka." agar program tidak crash.
