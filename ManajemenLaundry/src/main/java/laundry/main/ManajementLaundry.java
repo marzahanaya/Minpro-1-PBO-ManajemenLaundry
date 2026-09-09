@@ -17,7 +17,6 @@ public class ManajementLaundry {
         Scanner scanner = new Scanner(System.in);
         int pilihan;
 
-        // Perulangan do-while agar program tidak langsung berhenti
         do {
             System.out.println("\n=== SISTEM MANAJEMEN LAUNDRY ===");
             System.out.println("1. Tambah Transaksi");
@@ -27,8 +26,7 @@ public class ManajementLaundry {
             System.out.println("5. Cari Transaksi");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
-
-            // Pemilihan menu dengan inputan & validasi angka
+            
             String input = scanner.nextLine().trim();
             try {
                 pilihan = Integer.parseInt(input);
@@ -36,7 +34,6 @@ public class ManajementLaundry {
                 pilihan = -1;
             }
 
-            // Percabangan switch-case untuk eksekusi menu
             switch (pilihan) {
                 case 1 -> service.tambahTransaksi();
                 case 2 -> service.tampilkanTransaksi();
