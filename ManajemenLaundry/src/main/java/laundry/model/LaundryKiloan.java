@@ -11,7 +11,7 @@ package laundry.model;
 public class LaundryKiloan extends ModelLaundry {
     private String jenisParfum;
 
-    // Constructor menggunakan super()
+    // Constructor
     public LaundryKiloan(String idTransaksi, String namaPelanggan, double berat, String jenisParfum) {
         super(idTransaksi, namaPelanggan, berat);
         this.jenisParfum = jenisParfum;
