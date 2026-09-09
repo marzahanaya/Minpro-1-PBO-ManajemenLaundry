@@ -16,22 +16,20 @@ import java.util.Scanner;
  * @author asus GK
  */
 public class LaundryService {
-    // Penerapan ArrayList
+
     private final ArrayList<ModelLaundry> daftarTransaksi = new ArrayList<>();
     private final Scanner scanner = new Scanner(System.in);
 
-    // CREATE (Tambah Data + Validasi Input)
+    // CREATE
     public void tambahTransaksi() {
         System.out.print("Masukkan ID Transaksi: ");
         String id = scanner.nextLine().trim();
 
-        // Validasi input kosong
         if (id.isEmpty()) {
             System.out.println("ID Transaksi tidak boleh kosong.");
             return;
         }
 
-        // Validasi ID duplikat
         for (ModelLaundry item : daftarTransaksi) {
             if (item.getIdTransaksi().equalsIgnoreCase(id)) {
                 System.out.println("ID Transaksi sudah terdaftar.");
@@ -50,7 +48,6 @@ public class LaundryService {
         String beratInput = scanner.nextLine().trim();
         double berat;
 
-        // Validasi format angka
         try {
             berat = Double.parseDouble(beratInput);
             if (berat <= 0) {
@@ -72,20 +69,20 @@ public class LaundryService {
         System.out.println("Transaksi laundry berhasil ditambahkan.");
     }
 
-    // READ (Tampilkan Data)
+    // READ
     public void tampilkanTransaksi() {
         if (daftarTransaksi.isEmpty()) {
             System.out.println("Belum ada data transaksi laundry.");
             return;
         }
         System.out.println("\n=== DAFTAR TRANSAKSI LAUNDRY ===");
-        // Perulangan untuk menampilkan data
+
         for (ModelLaundry item : daftarTransaksi) {
             System.out.println(item);
         }
     }
 
-    // UPDATE (Ubah Data)
+    // UPDATE
     public void ubahTransaksi() {
         System.out.print("Masukkan ID Transaksi yang ingin diubah: ");
         String id = scanner.nextLine().trim();
@@ -128,7 +125,7 @@ public class LaundryService {
         System.out.println("ID Transaksi tidak ditemukan.");
     }
 
-    // DELETE (Hapus Data)
+    // DELETE
     public void hapusTransaksi() {
         System.out.print("Masukkan ID Transaksi yang ingin dihapus: ");
         String id = scanner.nextLine().trim();
@@ -145,7 +142,7 @@ public class LaundryService {
         System.out.println("ID Transaksi tidak ditemukan.");
     }
 
-    // SEARCH (Cari Data)
+    // SEARCH
     public void cariTransaksi() {
         System.out.print("Masukkan kata kunci pencarian (ID/Nama): ");
         String keyword = scanner.nextLine().trim().toLowerCase();
