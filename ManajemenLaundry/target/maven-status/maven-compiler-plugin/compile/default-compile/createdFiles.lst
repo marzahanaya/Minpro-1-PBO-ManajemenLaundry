@@ -1,0 +1,4 @@
+laundry\main\ManajementLaundry.class
+laundry\model\ModelLaundry.class
+laundry\model\LaundryKiloan.class
+laundry\service\LaundryService.class
